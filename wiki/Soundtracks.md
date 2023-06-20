@@ -56,7 +56,7 @@ stored as little-endian.
 |--------|-----------------------|-------------------|
 | int32  | magic                 | always 0x00021371 |
 | int32  | id                    |                   |
-| uint32 | numSongGroups         |                   |
+| uint32 | numSongGroups         | Actually contains the number of songs |
 | int32  | songGroupIds          |                   |
 | int32  | totalTimeMilliseconds |                   |
 | wchar  | name\[64\]            | Unicode string    |
